@@ -15,8 +15,29 @@ public class EstimatePi {
 		
 		if (numThreads == 1) {
 			// TODO: sequential computation
+			PiTask piTask = new PiTask(NUM_POINTS);
+			piTask.run();
+			a = (double) piTask.getCount()/(double) NUM_POINTS;
 		} else if (numThreads == 2) {
 			// TODO: parallel computation using 2 threads
+			PiTask[] tasks = new PiTask[2];
+			for (int i = 0; i < 2; i++) {
+				tasks[i] = new PiTask(NUM_POINTS/2);
+			}
+			Thread[] threads = new Thread[2];
+			for (int i = 0; i < 2; i++) {
+				threads[i] = new Thread(tasks[i]);
+				threads[i].start();
+			}
+			try {
+				for (int i = 0; i < 2; i++) {
+					threads[i].join();
+				}
+			} catch (InterruptedException e) {
+				System.err.println("A thread was interrupted");
+			}
+			System.out.println(tasks[0].getCount() + tasks[1].getCount());
+			a = ((double) tasks[1].getCount() + (double) tasks[0].getCount())/(double) NUM_POINTS;
 		} else {
 			throw new IllegalArgumentException("only 1 or 2 threads are allowed");
 		}
@@ -26,5 +47,6 @@ public class EstimatePi {
 		System.out.println("Computation took " + (end - begin) + " milliseconds");
 
 		// TODO: compute estimate of pi, print it
+		System.out.println("Pi is estimated to be " + a*4.0);
 	}
 }
