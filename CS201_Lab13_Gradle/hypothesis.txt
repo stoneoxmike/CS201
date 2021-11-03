@@ -1,0 +1,12 @@
+State your hypothesis about how the running time of each
+algorithm to remove elements from an ArrayList in this file.
+
+Removing the first element will take significantly longer because all of the
+elements will need to be shifted over. This will only get worse as the number
+of elements increases. Removing the last element should be much faster, and
+should increase depending on the number of elements, but not by much.
+
+My hypothesis was confirmed by the results, although removing the last element
+was much faster than I anticipated.
+
+

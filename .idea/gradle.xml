@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Assign01_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Assign01_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Assign02_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Assign02_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Assign03_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Assign03_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Assign04_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Assign04_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Exam01_Fa21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Exam01_Fa21" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Exam02_Fa21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Exam02_Fa21" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab02_Gradle" />
+        <option name="gradleJvm" value="16" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab02_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab03_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab03_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab04_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab04_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab05_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab05_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab06_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab06_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab07_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab07_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab08_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab08_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab09_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab09_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab10_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab10_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab11_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab11_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab12_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab12_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab13_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab13_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab15_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab15_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab16_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab16_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab17_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab17_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab18_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab18_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab19_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab19_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab20_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab20_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab21_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab21_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab23_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lab23_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture03_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture03_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture04_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture04_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture05_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture05_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture10_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture10_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture11_Gradle_Final" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture11_Gradle_Final" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture12_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture12_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture15_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture15_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture16_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture16_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture18_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture18_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture19_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture19_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture20_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture20_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture21_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture21_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lecture23_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Lecture23_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
