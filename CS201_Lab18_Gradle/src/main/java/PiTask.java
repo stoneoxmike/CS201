@@ -16,7 +16,7 @@ public class PiTask implements Runnable {
 		this.numRandomPointsToCompute = numRandomPointsToCompute;
 		this.rand = new Random(123L + taskCount.getAndIncrement());
 		this.count = 0;
-		this.radius = 10;
+		this.radius = 1;
 	}
 	
 	@Override
@@ -24,8 +24,8 @@ public class PiTask implements Runnable {
 		// TODO: compute the number of random points indicated by numRandomPointsToCompute,
 		// count how many fall within the circle
 		for (int i = 0; i < numRandomPointsToCompute; i++) {
-			double x = -1 + (1 + 1) * rand.nextDouble();
-			double y = -1 + (1 + 1) * rand.nextDouble();
+			double x = rand.nextDouble();
+			double y = rand.nextDouble();
 			double dist = (x*x) + (y*y);
 			if (dist <= radius) {
 				count++;
