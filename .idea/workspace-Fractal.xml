@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c21242a4-ca55-4670-96d5-9141a7acee18" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/CS201_Assign01_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Assign02_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Assign03_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Assign04_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Exam01_Fa21">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Exam02_Fa21">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Exam02_Fall2016_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_GUIMVCDemo_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab02_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab03_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab04_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab05_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab06_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab07_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab08_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab09_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab10_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab11_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab12_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab13_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab15_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab16_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lab17_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lecture03_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lecture04_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lecture05_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lecture10_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lecture11_Gradle_Final">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lecture12_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lecture15_Gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CS201_Lecture16_Gradle">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/CS201_Assign01_Gradle">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/CS201_Lab05_Gradle">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/CS201_Assign03_Gradle">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/CS201_Exam02_Fa21">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1xEGPg6nKFd1QWNwU8wKFlaveYh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CS201_Exam02_Fa21" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RunManager" selected="Application.Mandelbrot">
+    <configuration name="Mandelbrot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mandelbrot" />
+      <module name="CS201_Assign04_Gradle.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Exam02_Fa21" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;BonusTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MandelbrotTaskTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Assign04_Gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MandelbrotTaskTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Q3Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Exam02_Fa21" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Q3Test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Q6Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Exam02_Fa21" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Q6Test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Mandelbrot" />
+        <item itemvalue="Gradle.MandelbrotTaskTest" />
+        <item itemvalue="Gradle.BonusTest" />
+        <item itemvalue="Gradle.Q6Test" />
+        <item itemvalue="Gradle.Q3Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c21242a4-ca55-4670-96d5-9141a7acee18" name="Changes" comment="" />
+      <created>1629912814658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629912814658</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

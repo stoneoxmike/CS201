@@ -34,7 +34,25 @@ public class CheckPalindrome {
 			// and java.util.Queue object
 			Stack<Character> stack = new Stack<Character>();
 			Queue<Character> queue = new LinkedList<Character>();
-			
+			boolean palindrome = true;
+			for (int i = 0; i < line.length(); i++) {
+				Character c = line.charAt(i);
+				c = Character.toLowerCase(c);
+				if (Character.isLetter(c)) {
+					stack.push(c);
+					queue.add(c);
+				}
+			}
+			while (!stack.isEmpty() && !queue.isEmpty()) {
+				if (stack.pop() != queue.remove() && palindrome) {
+					palindrome = false;
+					System.out.println("Not a palindrome");
+				}
+			}
+			if (palindrome) {
+				System.out.println("Palindrome");
+			}
 		}
+		reader.close();
 	}
 }

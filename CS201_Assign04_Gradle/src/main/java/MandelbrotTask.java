@@ -52,8 +52,8 @@ public class MandelbrotTask implements Runnable {
 		Complex c = null;
 		// TODO: Compute the complex value from the region bounds and
 		//       the given array indicies
-		double stepReal = (x2-x1)/(endCol-startCol);
-		double stepImag = (y2-y1)/(endRow-startRow);
+		double stepReal = (x2-x1)/(iterCounts[0].length);
+		double stepImag = (y2-y1)/(iterCounts.length);
 		c = new Complex(col*stepReal + x1, -1*row*stepImag + y2);
 		return c;
 	}
