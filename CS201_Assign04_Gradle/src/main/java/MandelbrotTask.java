@@ -35,10 +35,10 @@ public class MandelbrotTask implements Runnable {
 
 	// Method to determine the number of iterations beginning with value c
 	public int computeIterCount(Complex c) {
-		int count = 1;
+		int count = 0;
 		// TODO: Iterate Mandelbrot equation up to MandelBrot.THRESHOLD
-		Complex z = c;
-		for (int i = 0; i < Mandelbrot.THRESHOLD-1; i++) {
+		Complex z = new Complex(0,0);
+		for (int i = 0; i < Mandelbrot.THRESHOLD; i++) {
 			if (z.getMagnitude() <= 2.0) {
 				z = z.mult(z).add(c);
 				count++;
@@ -52,8 +52,8 @@ public class MandelbrotTask implements Runnable {
 		Complex c = null;
 		// TODO: Compute the complex value from the region bounds and
 		//       the given array indicies
-		double stepReal = (x2-x1)/(iterCounts[0].length);
-		double stepImag = (y2-y1)/(iterCounts.length);
+		double stepReal = (x2-x1)/(iterCounts[0].length-1);
+		double stepImag = (y2-y1)/(iterCounts.length-1);
 		c = new Complex(col*stepReal + x1, -1*row*stepImag + y2);
 		return c;
 	}
