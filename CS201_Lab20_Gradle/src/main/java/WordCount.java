@@ -1,12 +1,9 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Scanner;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.TreeSet;
-import java.util.TreeMap;
-import java.util.Set;
 
 public class WordCount {
 	private static final Pattern wordPattern =
@@ -26,7 +23,7 @@ public class WordCount {
 		//       word, in alphabetical order.
 
 		BufferedReader reader = new BufferedReader(new FileReader("./CS201_Lab20_Gradle/" + fileName));
-		
+		Map<String,Integer> map = new TreeMap<String,Integer>();
 		// This loop reads each line of the input file
 		while (true) {
 			String line = reader.readLine();
@@ -35,14 +32,42 @@ public class WordCount {
 			}
 			
 			Matcher m = wordPattern.matcher(line);
-			
 			// This loop finds each work in the current line
 			while (m.find()) {
 				String word = m.group(0);
 				word = word.toLowerCase();
-				
 				// TODO: do something with word
+				int count;
+				if (map.containsKey(word)) {
+					count = map.get(word);
+				} else {
+					count = 0;
+				}
+				count++;
+				map.put(word, count);
 			}
+		}
+		Set<String> keySet = map.keySet();
+		String longWord = null;
+		for (String str : keySet) {
+			if (longWord != null) {
+				if (longWord.length() < str.length()) {
+					longWord = str;
+				}
+			} else {
+				longWord = str;
+			}
+		}
+		for (String str : keySet) {
+			System.out.print(str);
+			for (int i = 0; i < longWord.length() - str.length(); i++) {
+				System.out.print(" ");
+			}
+			System.out.print(": ");
+			for (int i = 0; i < map.get(str); i++) {
+				System.out.print("=");
+			}
+			System.out.println();
 		}
 	}
 }
