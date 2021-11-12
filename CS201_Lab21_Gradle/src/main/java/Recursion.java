@@ -13,7 +13,8 @@ public class Recursion {
 	//     factorial(5) returns 120
 	//
 	public static int factorial(int n) {
-		throw new UnsupportedOperationException("Not implemented yet");
+		if (n == 1) { return 1; }
+		return factorial(n - 1) * n;
 	}
 	
 	//
@@ -28,7 +29,8 @@ public class Recursion {
 	// to divide the string into two parts.
 	//
 	public static String reverseString(String s) {
-		throw new UnsupportedOperationException("Not implemented yet");
+		if (s.length() == 1) { return s; }
+		return s.charAt(s.length() - 1) + reverseString(s.substring(0, s.length() - 1));
 	}
 	
 	//
@@ -46,7 +48,13 @@ public class Recursion {
 	// digit.
 	//
 	public static int countEvenDigits(int n) {
-		throw new UnsupportedOperationException("Not implemented yet");
+		if (n / 10 == 0) { return -(n%2-1); }
+		int lastDigit = n%10;
+		int count = 0;
+		if (lastDigit%2 == 0) {
+			count = 1;
+		}
+		return countEvenDigits(n / 10) + count;
 	}
 	
 	//
@@ -65,6 +73,7 @@ public class Recursion {
 	// to divide the string into two parts.
 	//
 	public static int stringToInt(String s) {
-		throw new UnsupportedOperationException("Not implemented yet");
+		if (s.length() == 0) { return 0; }
+		return Character.digit(s.charAt(s.length() - 1), 10) + stringToInt(s.substring(0, s.length() - 1)) * 10;
 	}
 }
