@@ -88,9 +88,16 @@ public class ColorMappingColorChooser implements ColorChooser {
 	// maxCounts different iteration values
 	// using a TreeMap since we will need sorted keys (iterCount values)
 	public void createIterCountMap(int[][] iterCounts) {
-		throw new UnsupportedOperationException("TODO - implement");				
+		for (int i = 0; i < iterCounts.length; i++) {
+			for (int j = 0; j < iterCounts[0].length; j++) {
+				if (iterCountMap.containsKey(iterCounts[i][j])) {
+					iterCountMap.put(iterCounts[i][j], iterCountMap.get(iterCounts[i][j]) + 1);
+				} else {
+					iterCountMap.put(iterCounts[i][j], 1);
+				}
+			}
+		}
 	}
-	
 	
 	// TODO: Implement the following method, which runs through the keys of the iterCountMap,
 	// TODO:    and creates a second Map that stores the same keys, along with the relative position
@@ -111,7 +118,14 @@ public class ColorMappingColorChooser implements ColorChooser {
 	// is not the actual color, but rather its relative location in the color spectrum), based on
 	// the frequency (# of occurrences) for each iteration count in the iterCountMap
 	public void createIterSpectrumMap() {
-		throw new UnsupportedOperationException("TODO - implement");				
+		int sum = 0;
+		int centeredLocatoion = 0;
+		for (int key : iterCountMap.keySet()) {
+			centeredLocatoion = sum + (iterCountMap.get(key) / 2) + 1;
+			iterSpectrumMap.put(key, centeredLocatoion);
+			sum = sum + iterCountMap.get(key);
+		}
+		maxLocation = sum;
 	}
 	
 
@@ -133,6 +147,20 @@ public class ColorMappingColorChooser implements ColorChooser {
 	// using trig functions to create a smooth transition between RGB color bands
 	// an alternate color assignment method is provided that is linear (commented out)
 	public void createIterColorMap() {
-		throw new UnsupportedOperationException("TODO - implement");				
+		for (int key : iterSpectrumMap.keySet()) {
+			int blue = 0;
+			int green = 0;
+			int red = 0;
+			if (key == Mandelbrot.THRESHOLD) {
+				Color color = new Color(red, green, blue);
+				iterColorMap.put(key, color);
+			} else {
+				blue = (int) (Math.cos((double) iterSpectrumMap.get(key) / maxLocation * Math.PI/2) * 255);
+				green = (int) (Math.sin((double) iterSpectrumMap.get(key) / maxLocation * Math.PI) * 255);
+				red = (int) (Math.sin((double) iterSpectrumMap.get(key) / maxLocation * Math.PI/2) * 255);
+				Color color = new Color(red, green, blue);
+				iterColorMap.put(key, color);
+			}
+		}
 	}
 }
