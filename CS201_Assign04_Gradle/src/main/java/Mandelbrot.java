@@ -85,6 +85,7 @@ public class Mandelbrot {
 	// Method to compute iterations for each pixel
 	public static void computeIterations(Rect bounds, int numThreads, int[][] iterCounts) throws InterruptedException {
 		// TODO: Create MandelbrotTasks and threads
+		long begin = System.currentTimeMillis();
 		MandelbrotTask[] tasks = new MandelbrotTask[numThreads];
 		for (int i = 0; i < numThreads; i++) {
 			int threadWidth = WIDTH/numThreads;
@@ -104,6 +105,8 @@ public class Mandelbrot {
 		} catch (InterruptedException e) {
 			System.err.println("A thread was interrupted");
 		}
+		long end = System.currentTimeMillis();
+		System.out.println("This took " + (end - begin) + "ms");
 	}
 
 	// Method to create image buffer using user selected colorChooser
