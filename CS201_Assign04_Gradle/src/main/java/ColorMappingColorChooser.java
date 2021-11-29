@@ -119,10 +119,10 @@ public class ColorMappingColorChooser implements ColorChooser {
 	// the frequency (# of occurrences) for each iteration count in the iterCountMap
 	public void createIterSpectrumMap() {
 		int sum = 0;
-		int centeredLocatoion = 0;
+		int centeredLocation = 0;
 		for (int key : iterCountMap.keySet()) {
-			centeredLocatoion = sum + (iterCountMap.get(key) / 2) + 1;
-			iterSpectrumMap.put(key, centeredLocatoion);
+			centeredLocation = sum + (iterCountMap.get(key) / 2) + 1;
+			iterSpectrumMap.put(key, centeredLocation);
 			sum = sum + iterCountMap.get(key);
 		}
 		maxLocation = sum;
