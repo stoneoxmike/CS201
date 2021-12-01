@@ -59,6 +59,15 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Exam03_Fall2016_Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/CS201_Exam03_Fall2016_Gradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/CS201_Lab02_Gradle" />
         <option name="gradleJvm" value="16" />
         <option name="modules">
